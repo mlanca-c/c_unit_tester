@@ -1,9 +1,9 @@
 
 # CUnitTester
 #
-# version: 4
+# version: 1.2
 # Author: mlanca-c
-# URL: https://github.com/mlanca-c/
+# URL: https://github.com/mlanca-c/c_unit_tester.git
 # **************************************************************************** #
 
 PROJECT	:= CUnitTester
@@ -16,7 +16,7 @@ USERS	:= ${USER1}
 # Project Variables
 # **************************************************************************** #
 
-NAME1	:= hello
+NAME1	:= my_program
 NAME2	:= c_unit_tester
 
 NAMES	:= ${NAME1} ${NAME2}
@@ -94,7 +94,7 @@ LIBS			:= $(addprefix ${LIB_ROOT}, ${LIB1}libft.a)
 # Content Folders
 # **************************************************************************** #
 
-DIRS	:= ./ hello/
+DIRS	:= ./
 
 SRC_DIRS_LIST	:= $(addprefix ${SRC_ROOT},${DIRS})
 

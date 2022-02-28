@@ -5,15 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mlanca-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/11 18:39:29 by mlanca-c          #+#    #+#             */
-/*   Updated: 2022/02/11 18:42:36 by mlanca-c         ###   ########.fr       */
+/*   Created: 2022/02/28 18:42:37 by mlanca-c          #+#    #+#             */
+/*   Updated: 2022/02/28 18:43:04 by mlanca-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "hello.h"
+#include <stdio.h>
 
 int	main(void)
 {
-	printf("%s\n", hello());
 	return (0);
 }

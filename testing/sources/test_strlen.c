@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   hello.h                                            :+:      :+:    :+:   */
+/*   test_hello.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mlanca-c <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/11 18:40:54 by mlanca-c          #+#    #+#             */
-/*   Updated: 2022/02/11 18:42:53 by mlanca-c         ###   ########.fr       */
+/*   Created: 2022/02/11 18:44:02 by mlanca-c          #+#    #+#             */
+/*   Updated: 2022/02/28 18:38:27 by mlanca-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HELLO_H
-# define HELLO_H
+#include "c_unit_testing.h"
 
-# include <stdio.h>
-
-char	*hello(void);
-
-#endif /* HELLO_H */
+int	test_strlen(void)
+{
+	if (strlen("Hello World") != 11)
+		return (NAY + 1);
+	return (YAY);
+}

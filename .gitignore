@@ -1,0 +1,7 @@
+*.o
+*.d
+.vscode
+a.out
+c_unit_tester
+.DS_Store
+my_program
